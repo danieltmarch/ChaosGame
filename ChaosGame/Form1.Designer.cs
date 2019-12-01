@@ -194,11 +194,11 @@
             this.iterationLbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.iterationLbl.AutoSize = true;
             this.iterationLbl.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iterationLbl.Location = new System.Drawing.Point(27, 5);
+            this.iterationLbl.Location = new System.Drawing.Point(21, 5);
             this.iterationLbl.Name = "iterationLbl";
-            this.iterationLbl.Size = new System.Drawing.Size(71, 36);
+            this.iterationLbl.Size = new System.Drawing.Size(84, 36);
             this.iterationLbl.TabIndex = 8;
-            this.iterationLbl.Text = "Iteration Count?";
+            this.iterationLbl.Text = "Total Iterations?";
             // 
             // tableLayoutPanel2
             // 
@@ -239,8 +239,6 @@
             // 
             this.vertChk.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.vertChk.AutoSize = true;
-            this.vertChk.Checked = true;
-            this.vertChk.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vertChk.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vertChk.Location = new System.Drawing.Point(135, 86);
             this.vertChk.Name = "vertChk";
@@ -275,7 +273,7 @@
             this.progress.Margin = new System.Windows.Forms.Padding(0);
             this.progress.Maximum = 1000;
             this.progress.Name = "progress";
-            this.progress.Size = new System.Drawing.Size(209, 23);
+            this.progress.Size = new System.Drawing.Size(305, 23);
             this.progress.Step = 1;
             this.progress.TabIndex = 1;
             // 
