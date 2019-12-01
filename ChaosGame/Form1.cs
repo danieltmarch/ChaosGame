@@ -24,6 +24,7 @@ namespace ChaosGame
         RunMode runMode = null;
         int currentIter = 0;
 
+
         public Form1()
         {
             InitializeComponent();
